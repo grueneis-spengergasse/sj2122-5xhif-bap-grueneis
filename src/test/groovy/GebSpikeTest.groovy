@@ -1,7 +1,7 @@
 import geb.Page
 import geb.spock.GebSpec
 
-class GoogleHomePage extends Page {
+class SpengergasseHomePage extends Page {
     static url = "https://www.spengergasse.at/"
 }
 
@@ -24,7 +24,7 @@ class GebSpikeTest extends GebSpec {
         Page oldPage = page
 
         when:
-        to GoogleHomePage
+        to SpengergasseHomePage
 
         then:
         oldPage != page
