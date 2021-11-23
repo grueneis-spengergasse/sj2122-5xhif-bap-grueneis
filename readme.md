@@ -1,1 +1,2 @@
-# A Geb - Spock - Selenium example
+# UI testing spikes
+
